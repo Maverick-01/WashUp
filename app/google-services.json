@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "315878748827",
+    "project_id": "washupforbusiness",
+    "storage_bucket": "washupforbusiness.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315878748827:android:c93c569fa814a29f8ccc3e",
+        "android_client_info": {
+          "package_name": "com.washup.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315878748827-748ros6gvtqdrp5j91gu3265udn4b80m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfVjz6MO1k4H_wsfH709pn4NHY5OIdAhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315878748827-748ros6gvtqdrp5j91gu3265udn4b80m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
