@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/home_bg"
+    android:background="@drawable/ic_google_pixel_4__4xl___6"
     android:orientation="vertical">
 
     <RelativeLayout
@@ -37,9 +37,9 @@
             android:background="@drawable/ic_edittext_background"
             android:elevation="10dp"
             android:ems="10"
+            android:gravity="center"
             android:hint="Enter your mobile number"
             android:inputType="phone"
-            android:gravity="center"
             android:textColor="#2370F2"
             android:textColorHint="#2370F2" />
 
@@ -80,8 +80,8 @@
             android:layout_marginEnd="121dp"
             android:layout_marginRight="121dp"
             android:fontFamily="sans-serif-black"
-            android:text="Get OTP"
             android:gravity="center_horizontal"
+            android:text="Get OTP"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
@@ -125,8 +125,8 @@
         android:layout_marginTop="16dp"
         android:elevation="10dp"
         android:fontFamily="sans-serif-black"
-        android:text="@string/header"
         android:gravity="center_horizontal"
+        android:text="@string/header"
         android:textColor="#2370F2"
         android:textSize="40sp"
         android:textStyle="bold|italic"
@@ -135,8 +135,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        />
+        app:layout_constraintVertical_bias="0.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

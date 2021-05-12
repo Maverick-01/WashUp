@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/ic_google_pixel_4__4xl___6"
     tools:context=".VerificationFragment">
 
     <TextView
@@ -57,7 +58,6 @@
         <TextView
             android:id="@+id/verification_header"
             android:layout_width="322dp"
-            android:gravity="center_horizontal"
             android:layout_height="wrap_content"
             android:layout_alignWithParentIfMissing="false"
             android:layout_alignParentStart="true"
@@ -70,6 +70,7 @@
             android:layout_marginLeft="32dp"
             android:layout_marginTop="0dp"
             android:fontFamily="sans-serif-condensed"
+            android:gravity="center_horizontal"
             android:text="Enter the verification code we just sent you on your mobile number."
             android:textAlignment="center"
             android:textColor="#2370F2"
@@ -160,26 +161,5 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_header2" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="292dp"
-        android:layout_marginLeft="292dp"
-        android:src="@drawable/ic_gradient_bubble"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/relativeLayout3" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="160dp"
-        android:layout_height="140dp"
-        android:layout_marginTop="60dp"
-        android:src="@drawable/ic_gradient_bubble2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.609"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/relativeLayout3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
