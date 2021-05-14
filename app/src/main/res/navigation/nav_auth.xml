@@ -7,7 +7,7 @@
     app:startDestination="@id/registrationFragment">
     <fragment
         android:id="@+id/loginFragment2"
-        android:name="com.washup.customer.LoginFragment"
+        android:name="com.washup.customer.ui.fragement.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
@@ -19,12 +19,12 @@
     </fragment>
     <fragment
         android:id="@+id/verificationFragment"
-        android:name="com.washup.customer.VerificationFragment"
+        android:name="com.washup.customer.ui.fragement.VerificationFragment"
         android:label="fragment_verification"
         tools:layout="@layout/fragment_verification" />
     <fragment
         android:id="@+id/registrationFragment"
-        android:name="com.washup.customer.RegistrationFragment"
+        android:name="com.washup.customer.ui.fragement.RegistrationFragment"
         android:label="fragment_registration"
         tools:layout="@layout/fragment_registration" />
 </navigation>

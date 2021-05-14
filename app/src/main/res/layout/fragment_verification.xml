@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".VerificationFragment">
+    tools:context=".ui.fragement.VerificationFragment">
 
     <TextView
         android:id="@+id/login_header2"
@@ -18,12 +18,13 @@
         android:textColor="#2370F2"
         android:textSize="40sp"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        android:gravity="center_horizontal" />
 
     <RelativeLayout
         android:id="@+id/relativeLayout3"
@@ -39,7 +40,6 @@
             android:id="@+id/get_otp_button2"
             android:layout_width="wrap_content"
             android:layout_height="85dp"
-            android:layout_below="@+id/userPhone"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
@@ -97,7 +97,8 @@
             android:inputType="number"
             android:textAlignment="center"
             android:textColor="#2370F2"
-            android:textColorHint="#2370F2" />
+            android:textColorHint="#2370F2"
+            android:gravity="center_horizontal" />
 
         <TextView
             android:id="@+id/verify_otp_textview"
@@ -167,7 +168,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="292dp"
         android:layout_marginLeft="292dp"
-        android:src="@drawable/ic_gradient_bubble"
+        app:srcCompat="@drawable/ic_gradient_bubble"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/relativeLayout3" />
 
@@ -176,7 +177,7 @@
         android:layout_width="160dp"
         android:layout_height="140dp"
         android:layout_marginTop="60dp"
-        android:src="@drawable/ic_gradient_bubble2"
+        app:srcCompat="@drawable/ic_gradient_bubble2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.609"
         app:layout_constraintStart_toStartOf="parent"
