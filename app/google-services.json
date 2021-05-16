@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "315878748827-ufgsbej3hgepr1j2s4pq03pvdp8i1gbb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.washup.customer",
+            "certificate_hash": "fa091148690b5692517f64e3981359de7ed728bf"
+          }
+        },
+        {
           "client_id": "315878748827-748ros6gvtqdrp5j91gu3265udn4b80m.apps.googleusercontent.com",
           "client_type": 3
         }
