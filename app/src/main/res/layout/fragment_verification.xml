@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,159 +6,63 @@
     android:background="@drawable/ic_google_pixel_4__4xl___6"
     tools:context=".VerificationFragment">
 
-    <TextView
-        android:id="@+id/login_header2"
-        android:layout_width="212dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="16dp"
-        android:elevation="10dp"
-        android:fontFamily="sans-serif-black"
-        android:text="Verification"
-        android:textAlignment="center"
-        android:textColor="#2370F2"
-        android:textSize="40sp"
-        android:textStyle="bold|italic"
-        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
 
-    <RelativeLayout
-        android:id="@+id/relativeLayout3"
-        android:layout_width="393dp"
-        android:layout_height="374dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.683">
-
-        <ImageButton
-            android:id="@+id/get_otp_button2"
-            android:layout_width="wrap_content"
-            android:layout_height="85dp"
-            android:layout_below="@+id/userPhone"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="29dp"
-            android:layout_marginEnd="36dp"
-            android:layout_marginRight="36dp"
-            android:layout_marginBottom="111dp"
-            android:background="#FFFFFF"
-            android:padding="5dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:srcCompat="@drawable/ic_rectangle_5" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="50sp"
+        android:orientation="vertical">
 
         <TextView
-            android:id="@+id/verification_header"
-            android:layout_width="322dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignWithParentIfMissing="false"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentRight="false"
-            android:layout_alignParentBottom="false"
-            android:layout_centerHorizontal="true"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginTop="0dp"
-            android:fontFamily="sans-serif-condensed"
-            android:gravity="center_horizontal"
-            android:text="Enter the verification code we just sent you on your mobile number."
-            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25sp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center_vertical"
+            android:text="Verification"
             android:textColor="#2370F2"
-            android:textSize="25sp" />
+            android:textSize="30sp"
+            android:textStyle="italic"></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/verification"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Enter the otp we just sent you on your mobile number."
+            android:textColor="#2370F2"
+            android:textSize="25sp"></TextView>
 
         <EditText
-            android:id="@+id/user_otp"
-            android:layout_width="275dp"
-            android:layout_height="52dp"
-            android:layout_alignStart="@+id/verification_header"
-            android:layout_alignLeft="@+id/verification_header"
-            android:layout_alignEnd="@+id/verification_header"
-            android:layout_alignRight="@+id/verification_header"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginStart="22dp"
-            android:layout_marginLeft="22dp"
-            android:layout_marginEnd="25dp"
-            android:layout_marginRight="25dp"
-            android:layout_marginBottom="213dp"
-            android:background="@drawable/ic_edittext_background"
-            android:elevation="20dp"
-            android:ems="10"
-            android:hint="Enter OTP"
-            android:inputType="number"
-            android:textAlignment="center"
-            android:textColor="#2370F2"
-            android:textColorHint="#2370F2" />
-
-        <TextView
-            android:id="@+id/verify_otp_textview"
-            android:layout_width="112dp"
-            android:layout_height="wrap_content"
-            android:layout_alignStart="@+id/get_otp_button2"
-            android:layout_alignLeft="@+id/get_otp_button2"
-            android:layout_alignEnd="@+id/get_otp_button2"
-            android:layout_alignRight="@+id/get_otp_button2"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="119dp"
-            android:layout_marginLeft="119dp"
-            android:layout_marginEnd="98dp"
-            android:layout_marginRight="98dp"
-            android:layout_marginBottom="155dp"
-            android:fontFamily="sans-serif-black"
-            android:text="Verify OTP"
-            android:textColor="#FFFFFF"
-            android:textSize="20sp" />
-
-        <TextView
-            android:id="@+id/textView5"
-            android:layout_width="175dp"
-            android:layout_height="wrap_content"
-            android:layout_alignStart="@+id/get_otp_button2"
-            android:layout_alignLeft="@+id/get_otp_button2"
-            android:layout_alignEnd="@+id/get_otp_button2"
-            android:layout_alignRight="@+id/get_otp_button2"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="41dp"
-            android:layout_marginLeft="41dp"
-            android:layout_marginEnd="114dp"
-            android:layout_marginRight="114dp"
-            android:layout_marginBottom="114dp"
-            android:text="If you didn't receive code !"
-            android:textColor="#393333" />
-
-        <TextView
-            android:id="@+id/textView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="241dp"
-            android:layout_marginLeft="241dp"
-            android:layout_marginBottom="115dp"
-            android:text="Resend"
-            android:textColor="#2370F2" />
+            android:layout_gravity="center"
+            android:layout_marginTop="19dp"
+            android:background="@drawable/edittext_rectangle"
+            android:gravity="center"
+            android:hint="Enter OTP"
+            android:textColor="#2370F2"
+            android:textColorHint="#2370F2"></EditText>
 
-    </RelativeLayout>
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="243dp"
-        android:layout_height="167dp"
-        android:src="@drawable/verification"
-        app:layout_constraintBottom_toTopOf="@+id/relativeLayout3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login_header2" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/edittext_background"
+            android:fontFamily="sans-serif-black"
+            android:text="Verify"
+            android:textColor="@color/white"
+            android:textSize="20sp"></androidx.appcompat.widget.AppCompatButton>
+    </LinearLayout>
+</ScrollView>
