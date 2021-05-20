@@ -42,8 +42,8 @@
             android:background="@drawable/edittext_rectangle"
             android:gravity="center"
             android:hint="Enter your mobile number"
-            android:textColor="#2370F2"
-            android:textColorHint="#2370F2"></EditText>
+            android:textColor="#2196F3"
+            android:textColorHint="#2196F3"></EditText>
 
 
         <androidx.appcompat.widget.AppCompatButton

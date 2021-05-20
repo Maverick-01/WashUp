@@ -35,15 +35,20 @@
             android:src="@drawable/verification"></ImageView>
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="321dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
             android:gravity="center"
             android:text="Enter the otp we just sent you on your mobile number."
-            android:textColor="#2370F2"
+            android:textColor="#2370f2"
             android:textSize="25sp"></TextView>
 
         <EditText
+            android:id="@+id/user_otp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -51,8 +56,8 @@
             android:background="@drawable/edittext_rectangle"
             android:gravity="center"
             android:hint="Enter OTP"
-            android:textColor="#2370F2"
-            android:textColorHint="#2370F2"></EditText>
+            android:textColor="#2196F3"
+            android:textColorHint="#2196f3"></EditText>
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="wrap_content"
