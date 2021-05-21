@@ -8,10 +8,10 @@ import com.washup.customer.data.model.User;
 import com.washup.customer.data.repository.AuthRepo;
 
 class LoginViewModel {
-     constructor(
-            private val authRepository:AuthRepo):
+     void constructor(
+              authRepository:AuthRepo):
 
-     ViewModel() {
+     void ViewModel() {
 
         private var _authenticateUserLiveData:MutableLiveData<ResponseState<User>>=MutableLiveData()
         val authenticateUserLiveData:LiveData<ResponseState<User>> get
